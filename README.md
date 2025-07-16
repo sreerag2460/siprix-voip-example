@@ -6,6 +6,7 @@ How to start
 
 - install flutter (https://docs.flutter.dev/get-started)
 - after flutter setup run the siprix example application
+  - run these (flutter clean; flutter pub get) commands from siprix-voip-sdk => example folder
   - navigate through siprix_voip_sdk => example => lib => main.dart click the run before    main function(line 38)
 
 ===============
