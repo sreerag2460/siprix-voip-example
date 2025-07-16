@@ -1,0 +1,14 @@
+Launching lib/main.dart on Bazi E’s iPhone in release mode...
+Warning: Missing build name (CFBundleShortVersionString).
+Warning: Missing build number (CFBundleVersion).
+Automatically signing iOS for device deployment using specified development team in Xcode project: 5RZASUGRBG
+Running Xcode build...                                          
+ └─Compiling, linking and signing...                      2,259ms
+Xcode build done.                                            9.6s
+Installing and launching...                                        24.8s
+
+Flutter run key commands.
+h List all available interactive commands.
+c Clear the screen
+q Quit (terminate the application on the device).
+Application finished.
