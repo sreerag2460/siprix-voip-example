@@ -1,5 +1,26 @@
 # siprix_voip_sdk_example
 
+
+
+How to start
+==============
+
+- install flutter (https://docs.flutter.dev/get-started)
+- after flutter setup run the siprix example application
+  - run these (flutter clean; flutter pub get) commands from siprix-voip-sdk => example folder
+  - navigate through siprix_voip_sdk => example => lib => main.dart click the run before    main function(line 38)
+
+- First you are going to land in account screen. You can add add your account with clicking the Plus icon. You can add your server , extension, password etc. in add account screen 
+
+- we can config our account features like codec, securemedia all those things are in add_account.dart
+
+- enable foreground mode in setting screen (android only)
+
+- logs are available in logs section
+
+
+===============
+
 Demonstrates how to use the siprix_voip_sdk plugin.
 
 ## Getting Started
