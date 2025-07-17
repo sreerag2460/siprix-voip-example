@@ -80,12 +80,62 @@ Running the Siprix Example Application (Flutter)
           This ensures that the project is reset and all necessary packages are installed correctly.
 
 2. Open Main File and Run
+
+      1. Requirements
+            Mac with macOS installed
+
+            Xcode (latest version)
+
+            Flutter SDK installed
+
+            Physical iPhone
+
+            Apple ID or Developer Account (Free or Paid)
+
+      2. Connect Device
+
+            * enable developer option in device (settings -> privacy& security)
+
+            * Plug in your iPhone via USB
+
+            * Unlock your iPhone
+
+            * Trust the Mac if prompted (on device and on Mac)
+
+            * Run in terminal: 'flutter devices'
+            You should see your iPhone listed.
+
+      * Configure Xcode for First Use
+            Open iOS project in Xcode:
+
+                  open ios/Runner.xcworkspace (you can see ios folder inside siprix_voip_sdk/example folder. Right click and open in xcode)ß
+            Then:
+
+                  Go to Runner → Signing & Capabilities tab
+
+                  Set your team under Signing
+
+                  Use your Apple ID (auto sign-in available)
+
+                  Set a unique bundle identifier like com.yourname.appname (already done this is bundle identifier 'com.example.siprixvoiptrial')
+      
+
       * Open the file:
         siprix_voip_sdk/example/lib/main.dart
 
       * Scroll to around line 38, where the main() function is defined.
 
-      * Place your cursor just before the main() function, and click Run (or press F5) to start the app.
+      * Place your cursor just before the main() function, and click Run to start the app.
+
+      OR use following commands (Navigate to the siprix_voip_sdk/example)
+
+      * 'flutter clean; flutter pub get; cd ios; pod deintegrate; pod install; pod update;'   (Removes the build/ and .dart_tool/ directories.clearing cached build files)
+
+      * 'flutter run'
+
+      * select your device from the list using device order number example (1,2,3)
+
+
 
 3.  Add Your SIP Account
 

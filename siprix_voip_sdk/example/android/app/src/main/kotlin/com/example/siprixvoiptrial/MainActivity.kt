@@ -1,4 +1,4 @@
-package com.siprix.voip_sdk_example
+package com.example.siprixvoiptrial
 
 import io.flutter.embedding.android.FlutterActivity
 
