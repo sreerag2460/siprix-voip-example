@@ -61,6 +61,9 @@ How to start
 
       * Run: 'flutter devices'
 
+7. Set up xcode 
+  download xcode 
+
 - 
 
 
@@ -93,9 +96,9 @@ Running the Siprix Example Application (Flutter)
 
       2. Connect Device
 
-            * enable developer option in device (settings -> privacy& security)
+            * enable developer option in ios device (settings -> privacy& security)
 
-            * Plug in your iPhone via USB
+            * Plug in your iPhone via cable
 
             * Unlock your iPhone
 

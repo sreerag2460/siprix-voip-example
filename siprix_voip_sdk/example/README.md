@@ -62,6 +62,9 @@ How to start
 
       * Run: 'flutter devices'
 
+7. Set up xcode 
+  download xcode 
+
 - 
 
 
@@ -94,9 +97,9 @@ Running the Siprix Example Application (Flutter)
 
       2. Connect Device
 
-            * enable developer option in device (settings -> privacy& security)
+            * enable developer option in ios device (settings -> privacy& security)
 
-            * Plug in your iPhone via USB
+            * Plug in your iPhone via cable
 
             * Unlock your iPhone
 
@@ -108,7 +111,7 @@ Running the Siprix Example Application (Flutter)
       * Configure Xcode for First Use
             Open iOS project in Xcode:
 
-                  open ios/Runner.xcworkspace (you can see ios folder inside siprix_voip_sdk/example folder. Right click and open in xcode)ß
+                  open ios/Runner.xcworkspace (you can see ios folder inside siprix_voip_sdk/example folder. Right click and open in xcode)
             Then:
 
                   Go to Runner → Signing & Capabilities tab
